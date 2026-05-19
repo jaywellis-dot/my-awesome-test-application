@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "my-awesome-test-application"
+version = "0.1.0"
+description = "A utility for reading and processing member CSV data."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+
+[project.scripts]
+my-awesome-test-application = "my_awesome_test_application.__main__:main"
+
+[project.urls]
+Homepage = "https://github.com/jaywellis-dot/my-awesome-test-application"
